@@ -1,53 +1,60 @@
 # cosmos-snapshots  
 List of snapshots:   
-http://135.181.60.250/      - Akash Network (Mainnet)  
-http://162.255.116.68/snapshots/ - Akash Network (Mainnet)  
-http://135.181.60.250:8081/ - Sifchain (Betanet)  
-http://135.181.60.250:8083/ - Sentinel (Mainnet)  
-http://135.181.60.250:8084/ - Desmos (Mainnet)  
-http://135.181.60.250:8085/ - Osmosis (Mainnet)  
-http://135.181.60.250:8086/ - Bitcanna (Mainnet)  
-http://snapshots.alexvalidator.com:8081/  - Oasis (Mainnet)  
+http://135.181.60.250/      - Akash Network (Mainnet) truncated via statesync  
+http://135.181.60.250:8081/ - Sifchain (Betanet) truncated via statesync  
+http://135.181.60.250:8083/ - Sentinel (Mainnet truncated via statesync   
+http://135.181.60.250:8084/ - Desmos (Mainnet) truncated via statesync  
+http://135.181.60.250:8086/ - Stargaze (Mainnet) truncated via statesync  
+http://135.181.60.250:8087/ - Agoric (Mainnet) truncated via statesync  
+http://135.181.60.250:5888/ - Osmosis (Mainnet) truncated via statesync  
+http://snapshots.alexvalidator.com/oasis/ - Oasis (Mainnet)    
+http://snapshots.alexvalidator.com/ixo/ - IXO (Mainnet)   
+http://snapshots.alexvalidator.com/regen/ - Regen (Mainnet)   
+http://snapshots.alexvalidator.com/stargaze/ - Stargaze (Mainnet)   
 https://snapshots.stakecraft.com/ - Juno (Mainnet)  
-http://cosmos-snap.staketab.com/ixo - IXO (Mainnet)  
-http://cosmos-snap.staketab.com/medibloc - Medibloc (Mainnet)  
-http://cosmos-snap.staketab.com/stargaze - Stargaze (Mainnet)  
-
-https://www.notion.so/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d242939d
-- juno
-- osmosis
-- agoric
-- regen
-- cosmoshub
-- irishub
-- matic
-- emoney
-- bitsong
-- terra
-- kava
-- certik
-- microtick
-- celo-baklava non-archive
+https://cosmos-snap.staketab.com/ixo - IXO (Mainnet)  
+https://cosmos-snap.staketab.com/stargaze - Stargaze (Mainnet)  
+https://cosmos-snap.staketab.com/sifchain - Sifchain (Betanet)  
+https://cosmos-snap.staketab.com/comdex - Comdex (Mainnet)  
+https://cosmos-snap.staketab.com/axelar - Axelar (Mainnet)  
+https://mercury-nodes.net/kichain-snaps/ - Kichain (Mainnet)  
 
 [Akash snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Akash.md)  
+[Agoric snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Agoric.md)  
 [Sifchain snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sifchain.md)  
 [Sentinel snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sentinel.md)  
-[Desmos snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Desmos.md)  
-[Osmosis snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Osmosis.md)  
-[Bitcanna snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Bitcanna.md)  
+[Desmos snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Desmos.md)   
 [Oasis snapshot instruction](https://github.com/Bambarello/cosmos-snapshots/blob/main/Oasis.md)  
-[IXO snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/ixo.md)  
-[Medibloc snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/medibloc.md)  
-[Stargaze snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/stargaze.md)  
-
+[Stargaze snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Stargaze.md)  
+[Osmosis snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Osmosis.md)  
+[Kichain snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/kichain.md)  
+[IXO snapshot instruction(Staketab)](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/ixo.md)  
+[Sifchain snapshot instruction(Staketab)](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/sifchain.md)  
+[Stargaze snapshot instruction(Staketab)](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/stargaze.md)  
+[Comdex snapshot instruction(Staketab)](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/comdex.md)  
+[Axelar snapshot instruction(Staketab)](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/axelar.md)  
 
 ## MIRRORS  
 http://rpc01-skynet.paullovette.com/ - provided by Paul Lovette  
 http://162.255.116.68/snapshots/ - privded by Min (Min#6706)  
 https://snapshots.stakecraft.com/    - provided by Alex Novy  
-http://snapshots.alexvalidator.com:8081/  - provided by Bambarello  
-http://cosmos-snap.staketab.com/  - provided by Staketab  
-https://www.notion.so/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d242939d - provided by Stake Systems  
+http://snapshots.alexvalidator.com/  - provided by Alex [(Bambarello) Validator](https://github.com/Bambarello)  
+- Oasis
+- Stargaze
+- Regen
+- IXO  
+  
+https://cosmos-snap.staketab.com/  - provided by Staketab  
+  
+https://snapshots.stake2.me/ - provided by [Danil Ushakov](https://github.com/k0kk0k)  
+- Agoric
+- Akash
+- Certik
+- Gravity bridge
+- IXO
+- Osmosis
+- Sifchain
+- Stargaze
 
 
 ## Run your own backup server with snapshots  

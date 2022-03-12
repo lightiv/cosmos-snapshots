@@ -1,10 +1,10 @@
 #!/bin/bash
-CHAIN_ID="bitcanna-1"
-SNAP_PATH="$HOME/bitcanna/bitcanna"
-LOG_PATH="$HOME/bitcanna/bitcanna_log.txt"
-DATA_PATH="$HOME/.bcna/data/"
-SERVICE_NAME="bcnad.service"
-RPC_ADDRESS="http://135.181.60.250:46557"
+CHAIN_ID="agoric-3"
+SNAP_PATH="/root/agoric/agoric"
+LOG_PATH="/root/agoric/agoric_log.txt"
+DATA_PATH="/root/.agoric/data/"
+SERVICE_NAME="agoricd.service"
+RPC_ADDRESS="http://localhost:22657"
 SNAP_NAME=$(echo "${CHAIN_ID}_$(date '+%Y-%m-%d').tar")
 OLD_SNAP=$(ls ${SNAP_PATH} | egrep -o "${CHAIN_ID}.*tar")
 
